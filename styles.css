@@ -21,7 +21,7 @@
 
   --text-main: #f3f4f6;
   --text-muted: #9ca3af;
-  --text-dim: #64748b;
+  --text-dim: #7f8b9e; /* AA: ≥5.4:1 on all dark surfaces (was #64748b = 3.9-4.3:1) */
   
   /* Typography */
   --font-display: 'Orbitron', -apple-system, sans-serif;
@@ -3676,6 +3676,91 @@ body {
 @media (min-width: 1600px) {
   .container {
     max-width: 1440px;
+  }
+}
+
+/* ===================================================================
+   PRE-DELIVERY POLISH — focus visibility, cursors, modal internals,
+   form states (ui-ux-pro-max pre-delivery checklist)
+   =================================================================== */
+
+/* Keyboard focus must always be visible */
+:focus-visible {
+  outline: 2px solid var(--neon-cyan);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+.modal-close-btn:focus-visible {
+  outline-offset: 3px;
+}
+
+/* Interactive elements advertise clickability */
+.service-card,
+.veh-btn,
+.mega-service-item,
+.insta-item,
+.checkbox-pill,
+.ba-wrapper,
+.v-btn {
+  cursor: pointer;
+}
+.service-card:active,
+.veh-btn:active,
+.checkbox-pill:active {
+  transform: translateY(0);
+}
+
+/* Service modal injected content */
+.svc-modal-media {
+  margin-top: 16px;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 240, 255, 0.25);
+}
+.svc-modal-media img {
+  display: block;
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+.svc-modal-time {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-tech);
+  font-size: 0.78rem;
+  letter-spacing: 1px;
+  color: var(--neon-cyan);
+}
+.svc-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 22px;
+}
+.svc-cta-row .btn {
+  flex: 1 1 220px;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Form feedback: error variant alongside .success */
+.form-alert.error {
+  background: rgba(255, 77, 77, 0.12);
+  border: 1px solid var(--neon-crimson, #ff4d4d);
+  color: #fecaca;
+}
+.form-alert i {
+  margin-right: 8px;
+}
+
+/* Small-screen modal CTA stack */
+@media (max-width: 480px) {
+  .svc-cta-row .btn {
+    flex-basis: 100%;
+  }
+  .svc-modal-media img {
+    height: 170px;
   }
 }
 
