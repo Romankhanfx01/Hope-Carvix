@@ -4,7 +4,7 @@ Luxury PPF, Wrapping, Tinting & Detailing Studio — Dubai
 
 ## 🔗 Live
 
-**https://hope-carvix.vercel.app**
+**https://hopecarvix.vercel.app**
 
 Auto-deployed from the `main` branch on every push.
 
