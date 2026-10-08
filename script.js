@@ -558,7 +558,7 @@
       tag: "FLAGSHIP PROTECTION",
       title: "Paint Protection Film (PPF)",
       price: "From $1,499",
-      img: "assets/service_ppf.jpg",
+      img: "assets/service_ppf.webp",
       time: "3 - 5 Business Days",
       desc: "8mil to 10mil thick self-healing aliphatic thermoplastic polyurethane (TPU). Absorbs rock chips, road gravel and bug splatters, and self-heals swirl marks under sunlight or warm water.",
       bullets: [
@@ -572,7 +572,7 @@
       tag: "HYBRID INNOVATION",
       title: "Color PPF",
       price: "From $3,499",
-      img: "assets/service_color_ppf.jpg",
+      img: "assets/service_color_ppf.webp",
       time: "5 - 7 Business Days",
       desc: "The revolutionary synergy of exotic color customization and genuine 8mil paint protection. Unlike standard thin vinyl, Color PPF features zero orange peel, mirror depth, and self-healing resilience.",
       bullets: [
@@ -586,7 +586,7 @@
       tag: "BESPOKE STYLING",
       title: "Wrapped (Vehicle Vinyl Wraps)",
       price: "From $2,199",
-      img: "assets/service_wrap.jpg",
+      img: "assets/service_wrap.webp",
       time: "4 - 6 Business Days",
       desc: "Transform your car's aesthetic with 300+ premium vinyl options from 3M, Avery Dennison, and Inozetek. Full wraps, satin/matte transformations, chrome deletes, roof wraps, and custom racing liveries.",
       bullets: [
@@ -600,7 +600,7 @@
       tag: "THERMAL DEFENSE",
       title: "Ceramic Window Tinting",
       price: "From $349",
-      img: "assets/service_tinting.jpg",
+      img: "assets/service_tinting.webp",
       time: "1 - 2 Business Days",
       desc: "Nano-ceramic infrared blocking window films. Eliminates up to 96% of solar heat and 99.9% of harmful ultraviolet radiation, protecting your luxury leather interior while enhancing privacy and nighttime visibility.",
       bullets: [
@@ -614,7 +614,7 @@
       tag: "MIRROR CLARITY",
       title: "Polishing & Paint Correction",
       price: "From $599",
-      img: "assets/service_polishing.jpg",
+      img: "assets/service_polishing.webp",
       time: "2 - 3 Business Days",
       desc: "Surgical rotary and dual-action machine polishing. We permanently remove swirl marks, spider-web scratches, oxidation, hard water etchings, and sanding haze to reveal pure diamond reflection.",
       bullets: [
@@ -628,7 +628,7 @@
       tag: "INTERIOR & EXTERIOR",
       title: "Concierge Auto Detailing",
       price: "From $450",
-      img: "assets/hero_car.jpg",
+      img: "assets/hero_car.webp",
       time: "1 - 2 Business Days",
       desc: "Exhaustive 60-point rejuvenation. Steam decontamination, leather nourishment & ceramic shield, alcantara revitalization, chassis underbody flush, wheel-off barrel coating, and dressed engine bay.",
       bullets: [
